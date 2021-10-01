@@ -1,0 +1,156 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Trophee Jeunes{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="tab">&nbsp;</div>
+    <div class="card">
+        <div class="card-header"><h5 class="card-title">Liste des Compétitions Jeunes de la saison en cours ({{ saisoncourante }})</h5></div>
+        <div class="card-body">
+            Les Doubles sont en bleu foncé<br/>
+            Chaque catégorie a sa couleur
+        </div>
+    </div>
+    <div class="tab">&nbsp;</div>
+    <table class="table">
+        <thead class="bg-green">
+            <tr>
+                <th>Compétitions</th>
+                <th>Dates</th>
+                <th>Plaquette</th>
+                <th>Clubs</th>
+                <th>Dates limites d'insciption</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-danger">
+                <td>D1/J2</td>
+                <td>7-8 novembre 2020</td>
+                <td></td>
+                <td>Rambouillet</td>
+                <td></td>
+            </tr>
+            <tr class="table-warning">
+                <td>Poussins 1</td>
+                <td>14 novembre 2020</td>
+                <td></td>
+                <td>Carrières-sur-Seine</td>
+                <td></td>
+            </tr>
+            <tr class="table-info">
+                <td>Plateau 1</td>
+                <td>14 novembre 2020 (14h/17h)</td>
+                <td></td>
+                <td>Montigny-le-Bretonneux</td>
+                <td></td>
+            </tr>
+            <tr class="table-success">
+                <td>D2/J2</td>
+                <td>21-22 novembre 2020</td>
+                <td></td>
+                <td>A définir</td>
+                <td></td>
+            </tr>
+            <tr class="bg-blue">
+                <td>Tournoi Duos</td>
+                <td>5-6 décembre 2020</td>
+                <td></td>
+                <td>Sartrouville</td>
+                <td></td>
+            </tr>
+            <tr class="table-primary">
+                <td>D3/J2</td>
+                <td>12-13 décembre 2020</td>
+                <td></td>
+                <td>Carrières-sur-Seine</td>
+                <td></td>
+            </tr>
+            <tr class="table-danger">
+                <td>D1/J3</td>
+                <td>16-17 janvier 2020</td>
+                <td></td>
+                <td>A définir</td>
+                <td></td>
+            </tr>
+            <tr class="table-warning">
+                <td>Poussins 2</td>
+                <td>23 ou 24 janvier 2021</td>
+                <td></td>
+                <td>Maurepas</td>
+                <td></td>
+            </tr>
+            <tr class="bg-blue">
+                <td>Doubles 1</td>
+                <td>30-31 janvier 2021</td>
+                <td></td>
+                <td>Maurepas</td>
+                <td></td>
+            </tr>
+            <tr class="table-info">
+                <td>Plateau 2</td>
+                <td>30 ou 31 janvier 2021</td>
+                <td></td>
+                <td>A définir</td>
+                <td></td>
+            </tr>
+            <tr class="table-success">
+                <td>D2/J3</td>
+                <td>6-7 février 2021</td>
+                <td></td>
+                <td>A définir</td>
+                <td></td>
+            </tr>
+            <tr class="table-warning">
+                <td>Poussins 3</td>
+                <td>6 ou 7 mars 2021</td>
+                <td></td>
+                <td>BCV ou MYBAD</td>
+                <td></td>
+            </tr>
+            <tr class="table-primary">
+                <td>D3/J3</td>
+                <td>13-14 mars 2021</td>
+                <td></td>
+                <td>Elancourt</td>
+                <td></td>
+            </tr>
+            <tr class="bg-blue">
+                <td>Doubles 2</td>
+                <td>10-11 avril 2021</td>
+                <td></td>
+                <td>Chambourcy</td>
+                <td></td>
+            </tr>
+            <tr class="table-success">
+                <td>D2/J4</td>
+                <td>8-9 mai 2021</td>
+                <td></td>
+                <td>Porcheville</td>
+                <td></td>
+            </tr>
+            <tr class="table-info">
+                <td>Plateau 3</td>
+                <td>8 ou 9 mai 2021</td>
+                <td></td>
+                <td>Chambourcy</td>
+                <td></td>
+            </tr>
+            <tr class="table-primary">
+                <td>D3/J4</td>
+                <td>29-30 mai 2021</td>
+                <td></td>
+                <td>A définir</td>
+                <td></td>
+            </tr>
+            <tr class="bg-all">
+                <td>Championnat Jeunes</td>
+                <td>12-13 juin 2021</td>
+                <td></td>
+                <td>Carrières-sur-Seine</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

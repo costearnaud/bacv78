@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}BACV - Populations{% endblock %}
+
+{% block body %}
+{% for population in populations %}
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{ population.code }}</h5>
+            <p class="card-text">{{ population.label }}</p>
+            <a href="{{ path('population.create') }}" class="btn btn-primary">Créer une population</a>
+        </div>
+    </div>
+{% else %}
+    Pas encore de populations disponibles
+{% endfor %}
+{% endblock %}
